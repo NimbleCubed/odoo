@@ -6,7 +6,7 @@
 # Moshe Flam <pashute@gmail.com>, 2019
 # yoav sc <yoav19991@gmail.com>, 2019
 # Fishfur A Banter <fishfurbanter@gmail.com>, 2019
-# yacov mosbacher (‫יעקב מוסבכר‬‎) <ymosba@gmail.com>, 2019
+# yacov mosbacher <ymosba@gmail.com>, 2019
 # שהאב חוסיין <shhab89@gmail.com>, 2019
 # ExcaliberX <excaliberx@gmail.com>, 2019
 # hed shefetr <hed@laylinetech.com>, 2019
@@ -351,7 +351,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Invoicing Policy</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\">מדיניות חיוב</span>"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.checkout
@@ -935,7 +935,7 @@ msgstr "אושר"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
 msgid "Confirmed Orders"
-msgstr ""
+msgstr "הזמנות מאושרות"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_res_partner
@@ -1525,7 +1525,7 @@ msgstr "בינוני"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_payment_acquirer_onboarding_wizard__paypal_seller_account
 msgid "Merchant Account ID"
-msgstr ""
+msgstr "מזהה חשבון סוחר"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_payment_acquirer_onboarding_wizard__manual_name
@@ -2361,7 +2361,7 @@ msgstr "מכור במספר מטבעות"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Sell variants of a product using attributes (size, color, etc.)"
-msgstr ""
+msgstr "מכור וריאנטים של מוצר באמצעות תכונות (גודל, צבע וכו ')"
 
 #. module: website_sale
 #: model:ir.actions.server,name:website_sale.ir_actions_server_sale_cart_recovery_email
@@ -2465,7 +2465,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 msgid "Sign Up"
-msgstr ""
+msgstr "הירשם"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options

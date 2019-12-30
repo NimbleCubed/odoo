@@ -7,7 +7,7 @@
 # Zvika Rap <zvikara@gmail.com>, 2019
 # Fishfur A Banter <fishfurbanter@gmail.com>, 2019
 # Leandro Noijovich <eliel.sorcerer@gmail.com>, 2019
-# yacov mosbacher (‫יעקב מוסבכר‬‎) <ymosba@gmail.com>, 2019
+# yacov mosbacher <ymosba@gmail.com>, 2019
 # ilan kl <ilan@qaroads.co.il>, 2019
 # שהאב חוסיין <shhab89@gmail.com>, 2019
 # Martin Trigaux, 2019
@@ -560,7 +560,7 @@ msgstr "פעילויות"
 #: model:ir.model.fields,field_description:stock.field_stock_picking__activity_exception_decoration
 #: model:ir.model.fields,field_description:stock.field_stock_production_lot__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "עיטור פעילות חריגה"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__activity_state
@@ -636,7 +636,7 @@ msgstr "כתובת שבה יש לשלוח את הסחורה. אופציונלי.
 #. module: stock
 #: model:res.groups,name:stock.group_stock_manager
 msgid "Administrator"
-msgstr ""
+msgstr "מנהל"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -1773,6 +1773,8 @@ msgid ""
 "of the product: whether it will be bought, manufactured, replenished on "
 "order, etc."
 msgstr ""
+"בהתאם למודולים המותקנים, הדבר יאפשר לכם להגדיר את מסלול המוצר: האם הוא "
+"יירכש, ייוצר, יתחדש בהזמנה וכו '."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__name
@@ -2242,7 +2244,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock.selection__report_stock_quantity__state__forecast
 #: model_terms:ir.ui.view,arch_db:stock.stock_report_view_search
 msgid "Forecasted Stock"
-msgstr ""
+msgstr "מלאי חזוי"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__free_qty
@@ -2454,7 +2456,7 @@ msgstr "סמל"
 #: model:ir.model.fields,help:stock.field_stock_picking__activity_exception_icon
 #: model:ir.model.fields,help:stock.field_stock_production_lot__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "סמל לציין פעילות חריגה."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__message_needaction
@@ -3678,7 +3680,7 @@ msgstr "מספר ימי עסקים לאחר הפעלת ההזמנה כדי לק�
 #: model:ir.model.fields,field_description:stock.field_stock_production_lot__message_has_error_counter
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "מספר השגיאות"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__message_needaction_counter
@@ -4465,7 +4467,7 @@ msgstr "הפץ"
 #: model:ir.model.fields,field_description:stock.field_stock_move__propagate_date
 #: model:ir.model.fields,field_description:stock.field_stock_rule__propagate_date
 msgid "Propagate Rescheduling"
-msgstr ""
+msgstr "הפץ שינוי לוח זמנים"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__propagate_cancel
@@ -4954,7 +4956,7 @@ msgstr "דוחות"
 #: model:ir.model.fields,field_description:stock.field_stock_move__propagate_date_minimum_delta
 #: model:ir.model.fields,field_description:stock.field_stock_rule__propagate_date_minimum_delta
 msgid "Reschedule if Higher Than"
-msgstr ""
+msgstr "שנה לוח זמנים אם גבוה מ"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_procurement_jit
@@ -5154,7 +5156,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_production_lot__message_has_sms_error
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "שגיאת שליחת SMS"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_replenish__date_planned
@@ -5697,7 +5699,7 @@ msgstr "היסטורית כמות מלאי "
 #. module: stock
 #: model:ir.model,name:stock.model_report_stock_quantity
 msgid "Stock Quantity Report"
-msgstr ""
+msgstr "דוח כמות מלאי"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_rule
@@ -5933,7 +5935,7 @@ msgstr "הברקוד עבור מיקום חייב להיות ייחודי לכל
 #: model:ir.model.fields,help:stock.field_stock_move__propagate_date_minimum_delta
 #: model:ir.model.fields,help:stock.field_stock_rule__propagate_date_minimum_delta
 msgid "The change must be higher than this value to be propagated"
-msgstr ""
+msgstr "השינוי חייב להיות גבוה מערך זה כדי להיות מופץ"
 
 #. module: stock
 #: model:ir.model.constraint,message:stock.constraint_stock_warehouse_warehouse_code_uniq
@@ -6043,7 +6045,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_move__propagate_date
 #: model:ir.model.fields,help:stock.field_stock_rule__propagate_date
 msgid "The rescheduling is propagated to the next move."
-msgstr ""
+msgstr "התזמון מחדש יופץ בתנועה הבאה."
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:0
@@ -6490,7 +6492,7 @@ msgstr "סוג הפעולה"
 #: model:ir.model.fields,help:stock.field_stock_picking__activity_exception_decoration
 #: model:ir.model.fields,help:stock.field_stock_production_lot__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "סוג פעילות חריגה ברשומה."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_ups
